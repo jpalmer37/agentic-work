@@ -376,6 +376,8 @@ costly to run at volume. Its outputs become training data for a small
 model that is cheap to serve.
 </details>
 
+> **Try it.** [Lab 04](labs/04-rag-over-your-docs/README.md) builds retrieval over this course, and [Lab 05](labs/05-lora-fine-tune/README.md) fine-tunes a small model with LoRA.
+
 ## Takeaways
 
 - Climb the ladder from the bottom: prompt, retrieve, tools, fine-tune.

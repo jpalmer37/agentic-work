@@ -335,6 +335,8 @@ A breakdown by segment. Averages can hide a group that got worse.
 Report scores by category, language, customer type and so on.
 </details>
 
+> **Try it.** [Lab 04](labs/04-rag-over-your-docs/README.md) and [Lab 05](labs/05-lora-fine-tune/README.md) both report scores with error bars and compare runs case by case.
+
 ## Takeaways
 
 - An eval is inputs, a scoring method, and a number you track.

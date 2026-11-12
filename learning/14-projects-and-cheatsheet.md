@@ -33,6 +33,7 @@ your engine reports.
 ### Project 2: A tiny transformer from scratch
 
 **Exercises:** Modules 5, 6, 8.
+**Walkthrough:** [Lab 01](labs/01-train-a-tiny-gpt/README.md).
 
 Train a character-level language model on a small text file, such as a
 book from the public domain.
@@ -55,6 +56,7 @@ longer do.
 ### Project 3: Retrieval with real evaluation
 
 **Exercises:** Modules 1, 9, 11.
+**Walkthrough:** [Lab 04](labs/04-rag-over-your-docs/README.md).
 
 Build a question-answering system over documents you know well: a
 project's documentation, a handbook, your own notes.
@@ -75,6 +77,7 @@ answer pass rate, and show how one change moved them.
 ### Project 4: Fine-tune with LoRA and prove it helped
 
 **Exercises:** Modules 4, 9, 11.
+**Walkthrough:** [Lab 05](labs/05-lora-fine-tune/README.md).
 
 Pick a narrow task with a clear right answer, such as extracting fields
 from messy text into JSON.
@@ -95,6 +98,7 @@ and see whether the small model improves.
 ### Project 5: Serve a model like a product
 
 **Exercises:** Modules 8, 12, 13.
+**Walkthrough:** [Lab 02](labs/02-run-a-local-llm/README.md) and [Lab 03](labs/03-serve-like-a-product/README.md).
 
 1. Run an open-weight model behind an inference server that speaks the
    standard API.

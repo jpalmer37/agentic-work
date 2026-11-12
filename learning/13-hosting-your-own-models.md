@@ -488,6 +488,8 @@ user confirmation above a threshold. Log every action, and rate-limit
 the tool.
 </details>
 
+> **Try it.** [Lab 02](labs/02-run-a-local-llm/README.md) runs a model locally and removes it cleanly. [Lab 03](labs/03-serve-like-a-product/README.md) serves one behind a gateway, load-tests it and works out the cost.
+
 ## Takeaways
 
 - Self-host for data control, steady volume or a custom model. Start

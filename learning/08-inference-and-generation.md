@@ -393,6 +393,8 @@ setting its logit to negative infinity, so only valid continuations can
 be sampled.
 </details>
 
+> **Try it.** [Lab 02](labs/02-run-a-local-llm/README.md) measures prefill and decode speed on a real model, and [Lab 03](labs/03-serve-like-a-product/README.md) load-tests continuous batching and checks the KV cache arithmetic against vLLM.
+
 ## Takeaways
 
 - Generation is a loop: predict, pick, append, repeat.

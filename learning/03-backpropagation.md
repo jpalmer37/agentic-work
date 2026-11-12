@@ -355,6 +355,8 @@ Lower the learning rate (or add warmup), and add gradient clipping.
 Logging the gradient norm will confirm whether it was exploding.
 </details>
 
+> **Try it.** [Lab 01](labs/01-train-a-tiny-gpt/README.md) runs this loop for real: `loss.backward()` and `clip_grad_norm_` training a small GPT on your GPU.
+
 ## Takeaways
 
 - A gradient says how the loss responds to a nudge in one weight.

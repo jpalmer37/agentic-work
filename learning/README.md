@@ -73,6 +73,14 @@ numbers you can check by hand and code you can run.
 14. [Projects and cheat sheet](14-projects-and-cheatsheet.md):
     five hands-on projects, the key formulas on one page, a glossary.
 
+## Hands-on labs
+
+The modules are for reading. The [labs](labs/README.md) are for doing,
+at your PC: train a tiny GPT, run a real model locally and remove it,
+serve one behind a gateway and load-test it, build retrieval over this
+course, and fine-tune with LoRA. They are written for Windows with WSL2
+and an NVIDIA GPU, and each lab ends by cleaning up after itself.
+
 ## Notation
 
 The course avoids heavy maths notation. A few conventions:

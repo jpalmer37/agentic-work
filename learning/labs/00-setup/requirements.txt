@@ -1,0 +1,19 @@
+# Shared environment for every lab (checked November 2026).
+# On Linux x86_64 the PyPI torch wheel includes CUDA.
+torch==2.15.0
+numpy==2.5.4
+matplotlib==3.11.2
+
+# Labs 02, 03, 04: talking to model servers
+httpx==0.28.1
+openai==3.49.0
+
+# Lab 03: the gateway
+fastapi==0.162.5
+uvicorn==0.54.0
+
+# Lab 05: fine-tuning
+transformers==5.22.2
+peft==0.21.2
+accelerate==1.15.0
+bitsandbytes==0.50.2

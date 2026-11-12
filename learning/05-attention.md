@@ -445,6 +445,8 @@ token attend to different things for different reasons at the same time,
 for about the same total cost.
 </details>
 
+> **Try it.** [Lab 01](labs/01-train-a-tiny-gpt/README.md) trains a model with this attention, then again without the square root and without position, so you can compare.
+
 ## Takeaways
 
 - Attention is a soft dictionary lookup, scored with dot products.

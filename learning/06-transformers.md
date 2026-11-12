@@ -402,6 +402,8 @@ directions and produces a single vector per input, which is what search
 needs. A generative decoder is the wrong tool for that step.
 </details>
 
+> **Try it.** [Lab 01](labs/01-train-a-tiny-gpt/README.md) builds this block, stacks six of them and trains the result on Shakespeare in a few minutes.
+
 ## Takeaways
 
 - A transformer is a stack of identical blocks with constant shape.
