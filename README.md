@@ -19,6 +19,10 @@ These skills are for developers and scientific-computing practitioners using cod
 | [plotly-dash](skills/plotly-dash/) | Connect Plotly figures to production-quality Dash interactions |
 | [nextflow-pipelines](skills/nextflow-pipelines/) | Design, validate, and operate reproducible Nextflow DSL2 workflows |
 
+## Learning
+
+[ML Deep Dive](learning/README.md) is a 14-module course for software and data engineers who know the basics of machine learning and want to go deeper: dot products, loss functions, backpropagation, attention, transformers, LLM architectures, evaluation, MLOps, and hosting your own models. It is plain Markdown written to read comfortably on a phone. A separate set of [hands-on labs](learning/labs/README.md) puts it into practice on a local GPU: training a tiny GPT, running and serving open models, retrieval, and LoRA fine-tuning.
+
 ## Structure
 
 Each skill lives in its own folder under `skills/` and follows the Agent Skills standard:

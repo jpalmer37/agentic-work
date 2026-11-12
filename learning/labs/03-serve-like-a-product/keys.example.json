@@ -1,0 +1,12 @@
+{
+  "lab-key-alice": {
+    "name": "alice",
+    "requests_per_minute": 10,
+    "tokens_per_day": 2000
+  },
+  "lab-key-loadtest": {
+    "name": "loadtest",
+    "requests_per_minute": 100000,
+    "tokens_per_day": 10000000
+  }
+}

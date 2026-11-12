@@ -1,0 +1,12 @@
+# Things the labs create locally. Never commit them.
+.venv/
+__pycache__/
+data/
+out/
+*.pt
+*.npz
+*.png
+*.jsonl
+keys.json
+*.log
+results.json

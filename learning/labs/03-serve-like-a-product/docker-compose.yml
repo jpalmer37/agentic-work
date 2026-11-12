@@ -1,0 +1,38 @@
+# Lab 03: vLLM serving a small open model on one 12 GB GPU.
+# Checked November 2026 against the vLLM Docker docs.
+#
+#   docker compose up -d        start
+#   docker compose logs -f      watch it load (Ctrl+C stops watching)
+#   docker compose down         stop and remove the container
+
+services:
+  vllm:
+    image: vllm/vllm-openai:v0.33.0
+    command:
+      - --model
+      - Qwen/Qwen2.5-1.5B-Instruct
+      # The name clients use in requests.
+      - --served-model-name
+      - lab-model
+      # Longest prompt + answer, in tokens. Smaller = more room for
+      # concurrent requests in the KV cache (Modules 8 and 13).
+      - --max-model-len
+      - "4096"
+      # Share of GPU memory vLLM may take: weights + KV cache + overhead.
+      # 0.80 leaves room for Windows, which also uses this GPU.
+      - --gpu-memory-utilization
+      - "0.80"
+    ports:
+      # Only reachable from this machine. Clients go through the gateway.
+      - "127.0.0.1:8000:8000"
+    volumes:
+      # Keep downloaded weights between runs.
+      - ${HOME}/.cache/huggingface:/root/.cache/huggingface
+    ipc: host
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
